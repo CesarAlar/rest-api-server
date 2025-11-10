@@ -20,7 +20,7 @@ async function connectDB() {
     } catch (error) {
         console.log(colors.bgRed.white('hay un error en la conexion de la base de datos'))
     }
-}
+} 
 connectDB()
 // instancia de express
 const server = express()
